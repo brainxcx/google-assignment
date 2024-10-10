@@ -1,0 +1,131 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.header .head{
+    /* margin: 0.001%; */
+    padding: 1%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    margin-top: 2em;
+}
+
+.inp{
+    display: flex;
+    justify-content: center;
+}
+
+.inp input{
+    width: 600px;
+    min-height: 3em;
+    margin-top: 2em;
+    border-radius: 3em;
+    border-color: 1px solid white;
+    padding-left: 35px;
+    
+}
+
+.icoin{
+    position: absolute;
+    top: 220px;
+    right: 470px;
+}
+
+.icom{
+    position: absolute;
+    top: 220px;
+    left:950px;
+}
+
+.butt{
+    display: flex;
+    justify-content: center;
+}
+
+.butt button{
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-style: none;
+    cursor: pointer;
+    
+}
+
+.butt #bu{
+       margin-right: 10px;
+}
+
+.para{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.para p {
+    margin: 10px;
+    
+}
+
+.para a{
+    text-decoration: none;
+}
+
+.footer{
+    background-color:rgba(128, 128, 128, 0.153);
+    padding: 2px;
+    margin-top: 141px;
+    border-bottom: 1px rgb(14, 13, 13) solid;
+
+}
+
+.footer p{
+    margin-left: 10px;
+}
+
+.footerone{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: rgba(169, 169, 169, 0.217);
+    text-align: center;
+}
+
+.footerone .one{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.footerone .one p{
+    margin: 3px;
+    
+    text-align: center;
+}
+
+
+
+
+
+
+
+.footerone .three{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footerone .three p{
+    margin: 3px;
+    
+}
